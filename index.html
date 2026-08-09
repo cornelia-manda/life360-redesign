@@ -191,14 +191,13 @@
         overflow: hidden;
         background-color: #ece7f5;
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
       }
       .hero-cover {
-        width: auto;
-        height: 100%;
-        object-fit: cover;
-        object-position: top center;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
         display: block;
       }
 
@@ -487,7 +486,7 @@
           </div>
           <div class="hero-image-container">
             <img
-              src="screen1.png"
+              src="life360-cover.png"
               alt="Hero Mockup"
               class="hero-cover"
             />
